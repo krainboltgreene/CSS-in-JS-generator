@@ -19,6 +19,9 @@
         "js",
         "react"
     ],
+    "bin": {
+        "css-to-cssinjs": "bin/css-to-cssinjs"
+    },
     "author": "Brice BERNARD <brikou@gmail.com>",
     "license": "MIT",
     "bugs": {

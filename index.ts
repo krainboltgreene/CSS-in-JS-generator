@@ -6,7 +6,7 @@ import { format } from "prettier";
 import { convertCssForEmotion } from "./lib/convertCssForEmotion";
 
 const convertedCss = convertCssForEmotion(
-    readFileSync("/dev/stdin").toString(),
+    readFileSync(path).toString(),
 );
 
 console.log(
